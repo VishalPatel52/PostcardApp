@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0017.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O6U-0W-E8e">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lib_postcard.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="O6U-0W-E8e">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="64" width="320" height="518"/>
@@ -61,10 +61,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0001_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oer-7R-xRN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Munich_stamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oer-7R-xRN">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="210" y="72" width="89" height="89"/>
+                                    <rect key="frame" x="135" y="71" width="169" height="102"/>
                                 </variation>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sgg-5J-atk">
@@ -72,7 +72,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" keyboardAppearance="alert"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="182" width="288" height="30"/>
+                                    <rect key="frame" x="16" y="194" width="288" height="30"/>
                                 </variation>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNx-a1-6cI">
@@ -90,23 +90,23 @@
                                     <action selector="sendMessageButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Asy-jb-EpG"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ARH-UL-Pf4">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" keyboardAppearance="alert"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="236" width="288" height="30"/>
+                                </variation>
+                            </textField>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nv5-e1-Gs7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="82" width="186" height="79"/>
+                                    <rect key="frame" x="16" y="332" width="288" height="94"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter message" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ARH-UL-Pf4">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes" spellCheckingType="yes" keyboardAppearance="alert"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="229" width="288" height="30"/>
-                                </variation>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,8 +114,8 @@
                                 <exclude reference="oer-7R-xRN"/>
                                 <exclude reference="Sgg-5J-atk"/>
                                 <exclude reference="MNx-a1-6cI"/>
-                                <exclude reference="Nv5-e1-Gs7"/>
                                 <exclude reference="ARH-UL-Pf4"/>
+                                <exclude reference="Nv5-e1-Gs7"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,8 +123,8 @@
                                 <include reference="oer-7R-xRN"/>
                                 <include reference="Sgg-5J-atk"/>
                                 <include reference="MNx-a1-6cI"/>
-                                <include reference="Nv5-e1-Gs7"/>
                                 <include reference="ARH-UL-Pf4"/>
+                                <include reference="Nv5-e1-Gs7"/>
                             </mask>
                         </variation>
                     </view>
@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1026" y="235"/>
+            <point key="canvasLocation" x="1048.5" y="235"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yLz-5Y-HYs">
@@ -161,7 +161,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_0001_2.jpg" width="1076" height="1076"/>
-        <image name="IMG_0017.jpg" width="1779" height="2754"/>
+        <image name="Lib_postcard.JPG" width="612" height="816"/>
+        <image name="Munich_stamp.jpg" width="169" height="102"/>
     </resources>
 </document>

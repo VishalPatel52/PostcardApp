@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C91C3DA319C22C1D00B9E589 /* IMG_0017.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C91C3DA219C22C1D00B9E589 /* IMG_0017.jpg */; };
-		C91C3DA519C22F3F00B9E589 /* IMG_0001_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C91C3DA419C22F3F00B9E589 /* IMG_0001_2.jpg */; };
+		C950F50A19C39D320082995D /* Munich_stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C950F50919C39D320082995D /* Munich_stamp.jpg */; };
+		C950F50C19C39D840082995D /* Lib_postcard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C950F50B19C39D840082995D /* Lib_postcard.JPG */; };
 		C9AC920919BFA4630086893A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC920819BFA4630086893A /* AppDelegate.swift */; };
 		C9AC920B19BFA4630086893A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC920A19BFA4630086893A /* ViewController.swift */; };
 		C9AC920E19BFA4630086893A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AC920C19BFA4630086893A /* Main.storyboard */; };
@@ -27,8 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C91C3DA219C22C1D00B9E589 /* IMG_0017.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0017.jpg; sourceTree = "<group>"; };
-		C91C3DA419C22F3F00B9E589 /* IMG_0001_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0001_2.jpg; sourceTree = "<group>"; };
+		C950F50919C39D320082995D /* Munich_stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Munich_stamp.jpg; sourceTree = "<group>"; };
+		C950F50B19C39D840082995D /* Lib_postcard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lib_postcard.JPG; sourceTree = "<group>"; };
 		C9AC920319BFA4630086893A /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AC920719BFA4630086893A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9AC920819BFA4630086893A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		C9AC920619BFA4630086893A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C91C3DA419C22F3F00B9E589 /* IMG_0001_2.jpg */,
-				C91C3DA219C22C1D00B9E589 /* IMG_0017.jpg */,
+				C950F50B19C39D840082995D /* Lib_postcard.JPG */,
+				C950F50919C39D320082995D /* Munich_stamp.jpg */,
 				C9AC920719BFA4630086893A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,9 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9AC920E19BFA4630086893A /* Main.storyboard in Resources */,
-				C91C3DA319C22C1D00B9E589 /* IMG_0017.jpg in Resources */,
+				C950F50A19C39D320082995D /* Munich_stamp.jpg in Resources */,
+				C950F50C19C39D840082995D /* Lib_postcard.JPG in Resources */,
 				C9AC921019BFA4630086893A /* Images.xcassets in Resources */,
-				C91C3DA519C22F3F00B9E589 /* IMG_0001_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
