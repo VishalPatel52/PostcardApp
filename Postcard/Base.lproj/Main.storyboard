@@ -98,13 +98,22 @@
                                     <rect key="frame" x="16" y="236" width="288" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6I-TT-EGe">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="354" width="288" height="27"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nv5-e1-Gs7">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="16" y="332" width="288" height="94"/>
+                                    <rect key="frame" x="16" y="430" width="288" height="94"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -115,6 +124,7 @@
                                 <exclude reference="Sgg-5J-atk"/>
                                 <exclude reference="MNx-a1-6cI"/>
                                 <exclude reference="ARH-UL-Pf4"/>
+                                <exclude reference="g6I-TT-EGe"/>
                                 <exclude reference="Nv5-e1-Gs7"/>
                             </mask>
                         </variation>
@@ -124,6 +134,7 @@
                                 <include reference="Sgg-5J-atk"/>
                                 <include reference="MNx-a1-6cI"/>
                                 <include reference="ARH-UL-Pf4"/>
+                                <include reference="g6I-TT-EGe"/>
                                 <include reference="Nv5-e1-Gs7"/>
                             </mask>
                         </variation>
@@ -134,12 +145,13 @@
                         <outlet property="enterMessageLabel" destination="ARH-UL-Pf4" id="FvK-8F-j6B"/>
                         <outlet property="messageLabel" destination="Nv5-e1-Gs7" id="eZ5-ed-P5E"/>
                         <outlet property="nameLabel" destination="Sgg-5J-atk" id="zi7-oU-LfH"/>
+                        <outlet property="nameLabelName" destination="g6I-TT-EGe" id="Xya-0m-ApY"/>
                         <outlet property="sendButton" destination="MNx-a1-6cI" id="uJS-yb-vIz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1048.5" y="235"/>
+            <point key="canvasLocation" x="1023" y="235"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yLz-5Y-HYs">

@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sendButton: UIButton!
     
+    @IBOutlet weak var nameLabelName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,11 @@ class ViewController: UIViewController {
         
         messageLabel.textColor = UIColor.redColor()
         sendButton.setTitle("Message sent", forState: UIControlState.Normal)
+        
+        nameLabelName.hidden = false
+        nameLabelName.text = nameLabel.text
+        nameLabelName.textColor = UIColor.blueColor()
+        nameLabelName.text = ""
         
     }
 
